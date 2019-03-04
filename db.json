@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "l2ancient1@ukr.net",
+      "password": "12345678",
+      "name": "Admin"
+    }
+  ],
+  "bill": {
+    "value": 490,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Eat",
+      "capacity": 300,
+      "id": 1
+    },
+    {
+      "name": "Home",
+      "capacity": 250,
+      "id": 2
+    },
+    {
+      "name": "Fun",
+      "capacity": 250,
+      "id": 3
+    },
+    {
+      "name": "Other",
+      "capacity": 400,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 50,
+      "category": 2,
+      "date": "1.02.2019 19:49:02",
+      "description": "Borrowed"
+    },
+    {
+      "type": "income",
+      "amount": 100,
+      "category": 1,
+      "date": "27.02.2019 13:07:44",
+      "description": "ololo",
+      "id": 2
+    },
+    {
+      "type": "outcome",
+      "amount": 10,
+      "category": 2,
+      "date": "28.02.2019 11:52:30",
+      "description": "Buy fish",
+      "id": 3
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 1,
+      "date": "28.02.2019 12:08:28",
+      "description": "Tania's Birthday",
+      "id": 4
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 3,
+      "date": "28.02.2019 12:09:03",
+      "description": " Сongress to Lviv",
+      "id": 5
+    },
+    {
+      "type": "outcome",
+      "amount": 50,
+      "category": 1,
+      "date": "28.02.2019 12:09:34",
+      "description": "Sushi",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 450,
+      "category": 4,
+      "date": "28.02.2019 12:10:11",
+      "description": "Shoping",
+      "id": 7
+    },
+    {
+      "type": "income",
+      "amount": 200,
+      "category": 3,
+      "date": "01.03.2019 17:00:04",
+      "description": "zp",
+      "id": 8
+    }
+  ]
+}
